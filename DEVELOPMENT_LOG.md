@@ -97,16 +97,19 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - [March 28, 2026 - 5:00 PM]
+**What I did**: I improved the output using colors and a progress bar
 
-**Details**: 
+**Details**: •	I created a Colors class for colored output
+	•	I added ANSI color codes to the print statements
+	•	I built a simple progress bar using loops
+	•	I tested the output to make it look better
 
-**Challenges**: 
+**Challenges**: Making the output look clean and organized.
 
-**Solution**: 
+**Solution**: I adjusted formatting and spacing
 
-**Time spent**: 
+**Time spent**: 1.5 hours
 
 ---
 
