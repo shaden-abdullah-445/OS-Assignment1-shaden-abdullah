@@ -49,16 +49,19 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 25, 2026 - 6:00 PM]
+**What I did**: I added the Queue to the project.
 
-**Details**: 
+**Details**:- I used LinkedList to create the readyQueue
+-I added processes to the queue using add()
+-I removed processes using poll().
+	-	I tested the queue order to make sure it works correctly.
 
-**Challenges**: 
+**Challenges**: I got confused between add() and poll()
 
-**Solution**: 
+**Solution**: I tried it multiple times until I understood it
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
