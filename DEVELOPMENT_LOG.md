@@ -65,16 +65,19 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 27, 2026 - 2:00 PM]
+**What I did**: I worked on the Time Quantum feature
 
-**Details**: 
+**Details**: I used remainingTime to track how much time is left
+	•	I used timeQuantum to limit execution time
+	•	I applied Math.min() to avoid exceeding the remaining time
+	•	I tested different values to see how it behaves
 
-**Challenges**: 
+**Challenges**: Handling cases when the remaining time is smaller than the quantum
 
-**Solution**: 
+**Solution**: I used Math.min() to fix it
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
