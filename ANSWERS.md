@@ -23,16 +23,27 @@ Also, threads are lighter in terms of creation and management, so they don’t t
 
 **Your Answer:**
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+[A process is basically a program running independently, and it has its own memory and resources that it doesn’t share with others. On the other hand, a thread is a smaller unit inside a process that shares the same memory and resources with other threads. Because of that, communication between threads is much faster and easier compared to processes, which need more complex methods to communicate.
+
+Also, threads are lighter in terms of creation and management, so they don’t take as much time or resources as processes. In this assignment, we used threads because we needed multiple tasks to run at the same time while sharing the same data. If we used processes instead, it would consume more memory and make communication slower, which would reduce the efficiency of the simulation.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[
+  ? P1 executing quantum [4000ms] 
+  ? Quantum progress: [???????????????] 100%
+  ? P1 completed quantum 4000ms ? Overall progress: [????????????????????] 44%
+     Remaining time: 4919ms
+  ? P1 yields CPU for context switch
+
+  ? P1 (Priority: 3) added to ready queue ? Burst time: 8919ms
+?? Ready Queue ?????????????????????????????????????????????????????????????????
+? [P3 ? P4 ? P5 ? P6 ? P7 ? P8 ? P9 ? P10 ? P11 ? P12 ? P1]]
 ```
 
 **Explanation of example:**
 [Explain what's happening in the output snippet you pasted]
-
+For example, in my program output, I had a process that started running but didn’t finish within the given time slice, so it was re-queued at the end. Then another process was executed, and after that, the original process came back and resumed execution. This shows how Round-Robin ensures fairness by giving each process equal CPU time instead of letting one process run for too long.
 ---
 
 ## Question 3: Thread States
