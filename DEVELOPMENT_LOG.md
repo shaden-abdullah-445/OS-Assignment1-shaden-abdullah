@@ -81,16 +81,19 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 27, 2026 - 5:00 PM]
+**What I did**: I added waiting time calculation.
 
-**Details**: 
+**Details**: •	I tracked creationTime when the process starts
+	•	I updated lastReadyTime when the process enters the queue
+	•	I calculated totalWaitingTime during execution
+	•	I tested the values to make sure they are correct
 
-**Challenges**: 
+**Challenges**: The waiting time results were not correct at first
 
-**Solution**: 
+**Solution**: I fixed when and how the time updates happen
 
-**Time spent**: 
+**Time spent**: 2 hour
 
 ---
 
