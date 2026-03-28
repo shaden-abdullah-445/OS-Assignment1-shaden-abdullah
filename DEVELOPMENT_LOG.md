@@ -32,16 +32,20 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 25, 2026 - 3:00 PM]
+**What I did**: I started working on the project and built the basic structure.
 
-**Details**: 
+**Details**: - Created GitHub account with university email
+- Changed student ID to my actual ID (445052024)
+- Compiled and ran the program successfully
+- I created the main classes and added the variables I needed
 
-**Challenges**: 
 
-**Solution**: 
+**Challenges**: At first, I wasn’t sure how to organize the code
 
-**Time spent**: 
+**Solution**: I looked at examples and fixed it step by step
+
+**Time spent**: 30 minutes
 
 ---
 
