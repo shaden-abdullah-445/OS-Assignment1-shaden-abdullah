@@ -76,30 +76,31 @@ Terainated: P1 is Terminated when the run() method returns normally after comple
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Web Server Handling Multiple Requests
+Description]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[A web server receives multiple requests from different users at the same time, and each request is handled by a separate thread. For example, when many users open the same website, the server needs to process all their requests concurrently.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round-Robin gives each request a fair share of CPU time, so no single request takes all the resources. This makes the system more responsive because all users get served without long delays. It also keeps things balanced since every thread gets its turn regularly]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Operating System Task Scheduling (multiple apps running)]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[When you run multiple applications like a browser, music player, and text editor, each one needs CPU time to keep working. These applications run simultaneously using threads managed by the operating system.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round-Robin ensures that each application gets a small time slice, so all apps keep running smoothly. It improves responsiveness because no app gets blocked for too long. This makes the system feel faster and more stable since tasks are handled fairly.]
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. I understood the difference between processes and threads, and why threads are more efficient when tasks share the same data and resources.
+2. I learned how Round-Robin scheduling works, especially how a process is paused and re-queued if it doesn’t finish within its time quantum.
+3. Overall, I understood that Round-Robin focuses on fairness and responsiveness, making it useful for systems that need to handle multiple tasks at the same time.
 
 **Concepts I need to study more:**
 1. 
