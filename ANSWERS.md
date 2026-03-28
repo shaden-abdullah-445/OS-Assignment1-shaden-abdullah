@@ -63,7 +63,11 @@ For example, in my program output, I had a process that started running but didn
 4. **Waiting**: [When/why would P1 be Waiting?]
 
 5. **Terminated**: [When is P1 Terminated?]
-
+New: P1 is in New state after new Thread(process) is called in addProcessToQueue), creating the thread object before it starts.
+Runnable: P1 becomes Runnable when currentThread .start() is called in the main scheduling loop, making it ready for CPU execution.
+Running: P1 is Running when the OS scheduler selects it and begins executing the run() method, calculating runtime and processing its quantum.
+Waiting: Pl enters Timed-Waiting when Thread.sleep(stepTime) is called during execution to simulate work progress; the main thread also waits via currentThread.join() for P1 to complete.
+Terainated: P1 is Terminated when the run() method returns normally after completing its quantum or finishing entirely via runToCompletion().
 ---
 
 ## Question 4: Real-World Applications
