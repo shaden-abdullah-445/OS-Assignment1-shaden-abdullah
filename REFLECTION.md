@@ -25,7 +25,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[I solved the problems by practicing more, testing small parts of the code, and checking examples online. Trying different solutions helped me understand the concept better]
 
 ---
 
