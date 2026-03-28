@@ -9,7 +9,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[I learned how multithreading allows multiple tasks to run at the same time, which makes the program faster and more efficient. I also understood how threads work independently but still need to be managed carefully to avoid problems]
 
 ---
 
