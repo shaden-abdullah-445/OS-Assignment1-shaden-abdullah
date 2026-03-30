@@ -14,6 +14,11 @@ This assignment evaluates your ability to implement and work with multithreading
 
 **Important**: This assignment is worth **10%** of your final grade.
 
+
+
+## Video Demonstration
+(https://drive.google.com/file/d/1HKmPaPa4MV3JqCgvgOoO5w0FlnqLmrWX/view?usp=drivesdk)
+
 ---
 
 ## 🎯 Learning Objectives
